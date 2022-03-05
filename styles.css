@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono&family=Roboto:ital,wght@0,300;0,400;0,500;1,300&family=Shizuru&display=swap');
+
+body {
+    width: 100vw;
+    background-color: rgb(41, 30, 63);
+    color: whitesmoke;
+
+    font-family: "Roboto Mono";
+    font-weight: 300;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgba(245, 245, 245, 0.541);
+}
+
+section {
+    padding: 0;
+}
+
+nav {
+    position: fixed !important;
+    right: 0;
+    
+}
+
+.navbar-nav {
+    background-color: rgb(27, 20, 41) !important;
+}
+
+.nav-bar-nav a i {
+    font-size: 1em;
+}
+
+.icon-links {
+    display: none;
+}
+
+.icon-links svg {
+    fill: whitesmoke;
+    width: 25px;
+    margin: .5em;
+}
+
+.btn { /*BS*/
+    border-radius: 0 !important;
+
+}
+
+.top-level.row {
+    padding: 1em 1em 1em 1.25em;
+}
+
+.top-level.row h2 {
+    padding-bottom: .5em;
+}
+
+.top-level.row h3 {
+    padding: 2em 0 .5em 0;
+}
+
+
+.title {
+    padding: 2em 0 2em 0;
+}
+
+.title h1 {
+    font-size: 4.5rem;
+    font-family: 'Bebas Neue', monospace;;
+   
+}
+
+/*.title h1 span {
+    font-family: "shizuru";
+    font-size: 5rem;
+}*/
+
+
+.title h2 {
+    padding-bottom: 1em;
+    font-size: 1.25rem;
+}
+
+.my-work-gallery {
+    text-align: center;
+}
+
+.mycard > img {
+    margin-left: auto;
+    margin-right: auto;
+
+    border: .5px solid black;
+}
+
+.mycard h3 {
+    font-size: 1.5em;
+}
+
+.mycard .btn-group {
+    margin: .25em 0 1em 0;
+}
+
+.mycard .btn-group .btn {
+    padding: .1rem .5rem .1rem .5rem;
+}
+
+.about p {
+    padding: 0 .75em 0 1em;
+    margin: 0;
+}
+
+.contact {
+    display: inline-block;
+}
+
+.icon { /*bottom of page*/
+    padding: 1.5em .1em 1.5em .5em;
+    color: whitesmoke !important;
+}
+
+/* || UTILITES*/
+.emphasis {
+    font-style: italic;
+}
+
+/* || Media Queries */
+
+@media screen and (min-width: 768px) { /*md*/
+    .top-level.row {
+        padding: 1em 3em 3em 3em;
+    }
+
+    .my-work-gallery {
+        text-align: left;
+    }
+
+    .mycard {
+        padding-bottom: .5em;
+    }
+
+    .about {
+        padding-top: 1em;
+    }
+}
+
+@media screen and (min-width: 992px) { /*lg*/
+   nav {
+        background-color: rgba(41, 30, 63, 0.74);
+        width: 100vw;
+    }
+
+    .navbar-nav {
+        background-color: transparent !important;
+    }
+
+    .navbar-collapse {
+        justify-content: flex-end;
+    }
+
+
+
+    nav.navbar.navbar-expand-lg{
+        padding: 0 2em 0 1em !important;
+    }
+    
+    .top-level.row {
+        padding: 3em 5em 3em 5em;
+    }
+
+    
+
+    .title {
+        padding: 2em 0 2em 0;
+    }
+
+    .mycard {
+        padding-bottom: .75em;
+    }
+
+   
+}
+
